@@ -1,3 +1,4 @@
+# GitHub Pages deployment for the Quartz site.
 name: Deploy LeetCode notes to GitHub Pages
 
 on:
