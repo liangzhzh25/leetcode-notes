@@ -28,16 +28,7 @@ if ($robocopyExitCode -ge 8) {
 
 $indexPath = Join-Path $contentPath 'index.md'
 if (-not (Test-Path -LiteralPath $indexPath)) {
-    $defaultIndex = @(
-        '---'
-        'title: LeetCode Notes'
-        '---'
-        ''
-        '# LeetCode Notes'
-        ''
-        'Solutions, patterns, and review notes.'
-    )
-    $defaultIndex | Set-Content -LiteralPath $indexPath -Encoding UTF8
+    Copy-Item -LiteralPath (Join-Path $projectPath 'default-index.md') -Destination $indexPath
 }
 
 Push-Location $projectPath
