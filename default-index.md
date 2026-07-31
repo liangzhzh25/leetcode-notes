@@ -13,7 +13,6 @@ title: LeetCode 学习笔记
       <a class="lc-hero-action" href="./leetcode-索引">浏览学习索引 <span aria-hidden="true">→</span></a>
     </div>
   </section>
-
   <section class="lc-start" aria-labelledby="lc-start-title">
     <div class="lc-section-heading">
       <div>
@@ -22,26 +21,22 @@ title: LeetCode 学习笔记
       </div>
       <span class="lc-note-count">4 篇笔记 · 持续更新</span>
     </div>
-
     <div class="lc-entry-grid">
       <a class="lc-entry" href="./1.-两数之和">
         <span class="lc-entry-id">01</span>
         <span class="lc-entry-copy"><strong>两数之和</strong><small>哈希表 · 时间 O(n)</small></span>
         <span class="lc-entry-arrow" aria-hidden="true">→</span>
       </a>
-
       <a class="lc-entry" href="./c++-vector-删除与移动零">
         <span class="lc-entry-id">283</span>
         <span class="lc-entry-copy"><strong>移动零</strong><small>双指针 · 空间 O(1)</small></span>
         <span class="lc-entry-arrow" aria-hidden="true">→</span>
       </a>
-
       <a class="lc-entry" href="./c++-哈希表速查">
         <span class="lc-entry-id">#</span>
         <span class="lc-entry-copy"><strong>C++ 哈希表速查</strong><small>unordered_map · 查询与插入</small></span>
         <span class="lc-entry-arrow" aria-hidden="true">→</span>
       </a>
-
       <a class="lc-entry" href="./c++-vector-删除与移动零">
         <span class="lc-entry-id lc-entry-code">{ }</span>
         <span class="lc-entry-copy"><strong>vector 删除操作</strong><small>pop_back · erase-remove</small></span>
